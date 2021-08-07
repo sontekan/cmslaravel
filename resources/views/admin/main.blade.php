@@ -1,0 +1,6 @@
+@include('admin.layout.header')
+@include('admin.layout.sidebar')
+@include('admin.layout.navbar')
+@yield('konten')
+@yield('ck-editor')
+@include('admin.layout.footer')
